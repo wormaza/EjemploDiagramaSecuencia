@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="337px" preserveAspectRatio="none" style="width:426px;height:337px;" version="1.1" viewBox="0 0 426 337" width="426px" zoomAndPan="magnify"><defs/><g><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="393" x="12" y="44.2637">Diagrama de Secuencia: Agregar/Quitar producto</text><rect fill="#90EE90" height="70.6094" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="209.25" y="120.1797"/><rect fill="#90EE90" height="58.3516" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="209.25" y="249.1406"/><rect fill="#9ACD32" height="16.2578" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="334.75" y="160.5313"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="55.75" x2="55.75" y1="87.8281" y2="198.7891"/><line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 1.0,4.0;" x1="55.75" x2="55.75" y1="198.7891" y2="226.7891"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="55.75" x2="55.75" y1="226.7891" y2="325.4922"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="213.75" x2="213.75" y1="87.8281" y2="198.7891"/><line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 1.0,4.0;" x1="213.75" x2="213.75" y1="198.7891" y2="226.7891"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="213.75" x2="213.75" y1="226.7891" y2="325.4922"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="339.25" x2="339.25" y1="159.4844" y2="198.7891"/><line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 1.0,4.0;" x1="339.25" x2="339.25" y1="198.7891" y2="226.7891"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="339.25" x2="339.25" y1="226.7891" y2="325.4922"/><rect fill="#FEFECE" height="31.6094" style="stroke: #A80036; stroke-width: 1.5;" width="55" x="28.75" y="55.2188"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="41" x="35.75" y="76.752">cliente</text><rect fill="#FEFECE" height="31.6094" style="stroke: #A80036; stroke-width: 1.5;" width="129" x="149.75" y="55.2188"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="115" x="156.75" y="76.752">:CarroDeCompras</text><rect fill="#90EE90" height="70.6094" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="209.25" y="120.1797"/><rect fill="#90EE90" height="58.3516" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="209.25" y="249.1406"/><rect fill="#9ACD32" height="16.2578" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="334.75" y="160.5313"/><polygon fill="#A80036" points="197.25,116.1797,207.25,120.1797,197.25,124.1797" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="56.25" x2="203.25" y1="120.1797" y2="120.1797"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="134" x="63.25" y="115.3232">agregarProductoTipo(x)</text><polygon fill="#A80036" points="279.25,146.5313,289.25,150.5313,279.25,154.5313" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="219.25" x2="285.25" y1="150.5313" y2="150.5313"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="48" x="226.25" y="145.6748">nuevo(x)</text><rect fill="#FEFECE" height="31.6094" style="stroke: #A80036; stroke-width: 1.5;" width="97" x="291.25" y="128.1797"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="83" x="298.25" y="149.7129">px:ProductoX</text><polygon fill="#A80036" points="230.25,172.7891,220.25,176.7891,230.25,180.7891" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 2.0,2.0;" x1="224.25" x2="338.75" y1="176.7891" y2="176.7891"/><polygon fill="#A80036" points="67.25,186.7891,57.25,190.7891,67.25,194.7891" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 2.0,2.0;" x1="61.25" x2="213.25" y1="190.7891" y2="190.7891"/><polygon fill="#A80036" points="197.25,245.1406,207.25,249.1406,197.25,253.1406" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="56.25" x2="203.25" y1="249.1406" y2="249.1406"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="106" x="63.25" y="244.2842">quitarProducto(px)</text><polygon fill="#A80036" points="327.75,275.4922,337.75,279.4922,327.75,283.4922" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="219.25" x2="333.75" y1="279.4922" y2="279.4922"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="54" x="226.25" y="274.6357">quitar(px)</text><line style="stroke: #A80036; stroke-width: 2.0;" x1="330.75" x2="348.75" y1="270.4922" y2="288.4922"/><line style="stroke: #A80036; stroke-width: 2.0;" x1="330.75" x2="348.75" y1="288.4922" y2="270.4922"/><polygon fill="#A80036" points="230.25,289.4922,220.25,293.4922,230.25,297.4922" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 2.0,2.0;" x1="224.25" x2="338.75" y1="293.4922" y2="293.4922"/><polygon fill="#A80036" points="67.25,303.4922,57.25,307.4922,67.25,311.4922" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 2.0,2.0;" x1="61.25" x2="213.25" y1="307.4922" y2="307.4922"/><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="37" x="377" y="13.3809">INF 236</text><!--MD5=[28747701fa3d5afc35f03c302850703d]
+@startuml
+title Diagrama de Secuencia: Agregar/Quitar producto
+header INF 236
+skinparam style strictuml
+hide methods
+hide empty members
+
+cliente -> ":CarroDeCompras" : agregarProductoTipo(x)
+activate ":CarroDeCompras" #LightGreen
+create "px:ProductoX"
+":CarroDeCompras" -> "px:ProductoX" : nuevo(x)
+activate "px:ProductoX" #YellowGreen
+"px:ProductoX" - -> ":CarroDeCompras"
+deactivate "px:ProductoX"
+":CarroDeCompras" - -> cliente
+deactivate ":CarroDeCompras"
+...
+cliente -> ":CarroDeCompras" : quitarProducto(px)
+activate ":CarroDeCompras" #LightGreen
+":CarroDeCompras" -> "px:ProductoX" !! : quitar(px)
+"px:ProductoX" - -> ":CarroDeCompras"
+deactivate "px:ProductoX"
+":CarroDeCompras" - -> cliente
+deactivate ":CarroDeCompras"
+
+@enduml
+
+PlantUML version 1.2020.10(Sun May 17 05:35:57 CLT 2020)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Java Version: 1.8.0_121-b13
+Operating System: Windows 10
+Default Encoding: Cp1252
+Language: es
+Country: CL
+--></g></svg>

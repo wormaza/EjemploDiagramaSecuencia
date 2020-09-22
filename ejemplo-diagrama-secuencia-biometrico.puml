@@ -1,0 +1,38 @@
+@startuml
+title Diagrama de Secuencia: Lector Biometrico
+header INF 236
+skinparam style strictuml
+
+actor Trabajador as Foo1
+boundary LectorBiometrico as Foo2
+control ControlHuella as Foo3
+entity DatosTrabajador as Foo4
+database BD as Foo5
+
+Foo1 -> Foo2 : consultarHuella()
+activate Foo2 
+Foo2 -> Foo3 : consultarHuella()
+activate Foo3
+Foo3 --> Foo2 : huellaInvalida
+deactivate Foo3
+Foo2 --> Foo1 : huellaInvalida
+Foo1 -> Foo2 : consultarHuella()
+Foo2 -> Foo3 : consultarHuella()
+activate Foo3
+Foo3 -> Foo4 : consultaDatos(t)
+deactivate Foo3
+activate Foo4
+Foo4 -> Foo5 : consultaDatos(t)
+activate Foo5
+Foo5 -> Foo5 : actualizarMarca(t)
+Foo5 --> Foo4 : datosTrabajador
+deactivate Foo5
+Foo4 --> Foo3 : datosTrabajador
+deactivate Foo4
+activate Foo3
+Foo3 --> Foo2 : datosTrabajador
+deactivate Foo3
+Foo2 --> Foo1 : datosTrabajador
+deactivate Foo2
+
+@enduml

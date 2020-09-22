@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="761px" preserveAspectRatio="none" style="width:404px;height:761px;" version="1.1" viewBox="0 0 404 761" width="404px" zoomAndPan="magnify"><defs/><g><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="346" x="24.5" y="44.2637">Diagrama de Secuencia: Revisar productos</text><rect fill="#FFFFFF" height="30" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="253" y="170.8828"/><rect fill="#FFFFFF" height="30" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="253" y="293.5859"/><rect fill="#FFFFFF" height="30" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="253" y="446.6406"/><rect fill="#FFFFFF" height="30" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="253" y="583.1797"/><rect fill="#FFFFFF" height="30" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="253" y="650.5313"/><rect fill="#FFFFFF" height="30" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="323" y="231.2344"/><rect fill="#FFFFFF" height="30" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="323" y="353.9375"/><rect fill="#FFFFFF" height="30" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="323" y="506.9922"/><rect fill="#FFFFFF" height="14" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="323" y="717.8828"/><rect fill="#FFFFFF" height="583.7031" style="stroke: #000000; stroke-width: 2.0;" width="369" x="13" y="104.8281"/><rect fill="#FFFFFF" height="261.7578" style="stroke: #000000; stroke-width: 2.0;" width="349" x="23" y="130.1797"/><rect fill="#FFFFFF" height="122.7031" style="stroke: none; stroke-width: 1.0;" width="349" x="23" y="269.2344"/><rect fill="#FFFFFF" height="215.2422" style="stroke: #000000; stroke-width: 2.0;" width="349" x="23" y="405.9375"/><rect fill="#FFFFFF" height="76.1875" style="stroke: none; stroke-width: 1.0;" width="349" x="23" y="544.9922"/><line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="64" x2="64" y1="87.8281" y2="749.8828"/><line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="258" x2="258" y1="87.8281" y2="749.8828"/><line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="328" x2="328" y1="87.8281" y2="749.8828"/><rect fill="#FEFECE" height="31.6094" style="stroke: #A80036; stroke-width: 1.5;" width="62" x="33" y="55.2188"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="48" x="40" y="76.752">bodega</text><rect fill="#FEFECE" height="31.6094" style="stroke: #A80036; stroke-width: 1.5;" width="52" x="232" y="55.2188"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="38" x="239" y="76.752">vitrina</text><rect fill="#FEFECE" height="31.6094" style="stroke: #A80036; stroke-width: 1.5;" width="68" x="294" y="55.2188"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="54" x="301" y="76.752">catalogo</text><rect fill="#FFFFFF" height="30" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="253" y="170.8828"/><rect fill="#FFFFFF" height="30" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="253" y="293.5859"/><rect fill="#FFFFFF" height="30" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="253" y="446.6406"/><rect fill="#FFFFFF" height="30" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="253" y="583.1797"/><rect fill="#FFFFFF" height="30" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="253" y="650.5313"/><rect fill="#FFFFFF" height="30" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="323" y="231.2344"/><rect fill="#FFFFFF" height="30" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="323" y="353.9375"/><rect fill="#FFFFFF" height="30" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="323" y="506.9922"/><rect fill="#FFFFFF" height="14" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="323" y="717.8828"/><path d="M13,104.8281 L86,104.8281 L86,112.8281 L76,122.8281 L13,122.8281 L13,104.8281 " fill="#EEEEEE" style="stroke: #000000; stroke-width: 1.0;"/><rect fill="none" height="583.7031" style="stroke: #000000; stroke-width: 2.0;" width="369" x="13" y="104.8281"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="28" x="28" y="119.3232">loop</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="157" x="101" y="118.2471">[cada producto p en bodega]</text><path d="M23,130.1797 L88,130.1797 L88,138.1797 L78,148.1797 L23,148.1797 L23,130.1797 " fill="#EEEEEE" style="stroke: #000000; stroke-width: 1.0;"/><rect fill="none" height="261.7578" style="stroke: #000000; stroke-width: 2.0;" width="349" x="23" y="130.1797"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="20" x="38" y="144.6748">opt</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="109" x="103" y="143.5986">[productos nuevos]</text><polygon fill="#A80036" points="241,166.8828,251,170.8828,241,174.8828" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="64" x2="247" y1="170.8828" y2="170.8828"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="96" x="71" y="166.0264">crearProducto(p)</text><polygon fill="#A80036" points="311,227.2344,321,231.2344,311,235.2344" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="64" x2="317" y1="231.2344" y2="231.2344"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="96" x="71" y="226.3779">crearProducto(p)</text><line style="stroke: #000000; stroke-width: 1.0; stroke-dasharray: 2.0,2.0;" x1="23" x2="372" y1="270.2344" y2="270.2344"/><polygon fill="#A80036" points="241,289.5859,251,293.5859,241,297.5859" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="64" x2="247" y1="293.5859" y2="293.5859"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="108" x="71" y="288.7295">actualizarPrecio(p)</text><polygon fill="#A80036" points="311,349.9375,321,353.9375,311,357.9375" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="64" x2="317" y1="353.9375" y2="353.9375"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="101" x="71" y="349.0811">actualizarPrecio()</text><path d="M23,405.9375 L84,405.9375 L84,413.9375 L74,423.9375 L23,423.9375 L23,405.9375 " fill="#EEEEEE" style="stroke: #000000; stroke-width: 1.0;"/><rect fill="none" height="215.2422" style="stroke: #000000; stroke-width: 2.0;" width="349" x="23" y="405.9375"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="16" x="38" y="420.4326">alt</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="192" x="99" y="419.3564">[mas de 1 menos de 100 unidades]</text><polygon fill="#A80036" points="241,442.6406,251,446.6406,241,450.6406" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="64" x2="247" y1="446.6406" y2="446.6406"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="151" x="71" y="441.7842">indicarUltimasUnidades(p)</text><polygon fill="#A80036" points="311,502.9922,321,506.9922,311,510.9922" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="64" x2="317" y1="506.9922" y2="506.9922"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="144" x="71" y="502.1357">indicarUltimasUnidades()</text><line style="stroke: #000000; stroke-width: 1.0; stroke-dasharray: 2.0,2.0;" x1="23" x2="372" y1="545.9922" y2="545.9922"/><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="95" x="28" y="557.4111">[entres 100 y mil]</text><polygon fill="#A80036" points="241,579.1797,251,583.1797,241,587.1797" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="64" x2="247" y1="583.1797" y2="583.1797"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="142" x="71" y="578.3232">indicarProximoAcabar(p)</text><polygon fill="#A80036" points="241,646.5313,251,650.5313,241,654.5313" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="64" x2="247" y1="650.5313" y2="650.5313"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="170" x="71" y="645.6748">[bajo precio?] indicarOferta(p)</text><polygon fill="#A80036" points="311,713.8828,321,717.8828,311,721.8828" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="64" x2="317" y1="717.8828" y2="717.8828"/><text fill="#000000" font-family="sans-serif" font-size="13" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="5" x="71" y="713.0264">*</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="228" x="76" y="713.0264">[proveedores nuevos] agregarContacto()</text><polygon fill="#A80036" points="75,727.8828,65,731.8828,75,735.8828" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 2.0,2.0;" x1="69" x2="327" y1="731.8828" y2="731.8828"/><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="37" x="355" y="13.3809">INF 236</text><!--MD5=[784c983fa6db2014b1037c3892639a84]
+@startuml
+title Diagrama de Secuencia: Revisar productos
+header INF 236
+skinparam style strictuml
+hide methods
+hide empty members
+
+participant bodega
+participant vitrina
+participant catalogo
+
+loop cada producto p en bodega
+    opt productos nuevos
+        bodega -> vitrina : crearProducto(p)
+        activate vitrina
+        deactivate vitrina
+        bodega -> catalogo : crearProducto(p)
+        activate catalogo
+        deactivate catalogo
+    else
+        bodega -> vitrina : actualizarPrecio(p)
+        activate vitrina
+        deactivate vitrina
+        bodega -> catalogo : actualizarPrecio()
+        activate catalogo
+        deactivate catalogo
+    end
+    alt mas de 1 menos de 100 unidades
+        bodega -> vitrina : indicarUltimasUnidades(p)
+        activate vitrina
+        deactivate vitrina
+        bodega -> catalogo : indicarUltimasUnidades()
+        activate catalogo
+        deactivate catalogo
+    else entres 100 y mil
+        bodega -> vitrina : indicarProximoAcabar(p)
+        activate vitrina
+        deactivate vitrina
+    end
+    bodega -> vitrina :[bajo precio?] indicarOferta(p)
+    activate vitrina
+    deactivate vitrina
+end
+bodega -> catalogo : //*//[proveedores nuevos] agregarContacto()
+activate catalogo
+bodega <- - catalogo
+deactivate catalogo
+
+@enduml
+
+PlantUML version 1.2020.10(Sun May 17 05:35:57 CLT 2020)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Java Version: 1.8.0_121-b13
+Operating System: Windows 10
+Default Encoding: Cp1252
+Language: es
+Country: CL
+--></g></svg>

@@ -1,0 +1,26 @@
+@startuml
+title Diagrama de Secuencia: Agregar/Quitar producto
+header INF 236
+skinparam style strictuml
+hide methods
+hide empty members
+
+cliente -> ":CarroDeCompras" : agregarProductoTipo(x)
+activate ":CarroDeCompras" #LightGreen
+create "px:ProductoX"
+":CarroDeCompras" -> "px:ProductoX" : nuevo(x)
+activate "px:ProductoX" #YellowGreen
+"px:ProductoX" --> ":CarroDeCompras"
+deactivate "px:ProductoX"
+":CarroDeCompras" --> cliente
+deactivate ":CarroDeCompras"
+...
+cliente -> ":CarroDeCompras" : quitarProducto(px)
+activate ":CarroDeCompras" #LightGreen
+":CarroDeCompras" -> "px:ProductoX" !! : quitar(px)
+"px:ProductoX" --> ":CarroDeCompras"
+deactivate "px:ProductoX"
+":CarroDeCompras" --> cliente
+deactivate ":CarroDeCompras"
+
+@enduml

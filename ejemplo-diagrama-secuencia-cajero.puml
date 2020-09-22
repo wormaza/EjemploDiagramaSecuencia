@@ -1,0 +1,38 @@
+@startuml
+title Diagrama de Secuencia: Cajero
+header INF 236
+skinparam style strictuml
+
+actor Cliente as Foo1
+boundary Cajero as Foo2
+control ControlPass as Foo3
+control ControlSesion as Foo6
+entity CuentaCorriente as Foo4
+
+Foo1 -> Foo2 : insertarTarjeta()
+activate Foo2 
+Foo1 -> Foo2 : ingresarPass(x)
+Foo2 -> Foo3 : verificarPass(x)
+activate Foo3
+Foo3 --> Foo2 : passInvalida
+deactivate Foo3
+Foo2 --> Foo1 : passInvalida
+Foo1 -> Foo2 : ingresarPass(x)
+Foo2 -> Foo3 : verificarPass(x)
+activate Foo3
+Foo3 --> Foo2 : passOk
+deactivate Foo3
+Foo2 --> Foo1 : passOk
+Foo1 -> Foo2 : consultaSaldo()
+Foo2 -> Foo6 : consultaSaldo()
+activate Foo6
+Foo6 -> Foo4 : consultaSaldo()
+activate Foo4
+Foo4 --> Foo6 : infoSaldo
+deactivate Foo4
+Foo6 --> Foo2 : infoSaldo
+deactivate Foo6
+Foo2 --> Foo1 : infoSaldo
+
+
+@enduml

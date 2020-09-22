@@ -1,0 +1,49 @@
+@startuml
+title Diagrama de Secuencia: Revisar productos
+header INF 236
+skinparam style strictuml
+hide methods
+hide empty members
+
+participant bodega
+participant vitrina
+participant catalogo
+
+loop cada producto p en bodega
+    opt productos nuevos
+        bodega -> vitrina : crearProducto(p)
+        activate vitrina
+        deactivate vitrina
+        bodega -> catalogo : crearProducto(p)
+        activate catalogo
+        deactivate catalogo
+    else
+        bodega -> vitrina : actualizarPrecio(p)
+        activate vitrina
+        deactivate vitrina
+        bodega -> catalogo : actualizarPrecio()
+        activate catalogo
+        deactivate catalogo
+    end
+    alt mas de 1 menos de 100 unidades
+        bodega -> vitrina : indicarUltimasUnidades(p)
+        activate vitrina
+        deactivate vitrina
+        bodega -> catalogo : indicarUltimasUnidades()
+        activate catalogo
+        deactivate catalogo
+    else entres 100 y mil
+        bodega -> vitrina : indicarProximoAcabar(p)
+        activate vitrina
+        deactivate vitrina
+    end
+    bodega -> vitrina :[bajo precio?] indicarOferta(p)
+    activate vitrina
+    deactivate vitrina
+end
+bodega -> catalogo : //*//[proveedores nuevos] agregarContacto()
+activate catalogo
+bodega <-- catalogo
+deactivate catalogo
+
+@enduml
