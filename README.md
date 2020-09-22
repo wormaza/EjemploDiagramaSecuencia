@@ -29,4 +29,6 @@ Agregar y quitar un producto a un carrito de compras.
 
 ### [Bodega](ejemplo-diagrama-secuencia-bodega.puml)
 
+![Alt text](/../master/out/ejemplo-diagrama-secuencia-bodega/Diagrama de Secuencia  Revisar productos.svg?raw=true "Bodega")
+
 Un ejemplo de como se va actualizando la información de los productos, en base a lo contenido en una bodega.
