@@ -27,6 +27,6 @@ Pasos para realizar la consulta de saldo en un cajero automático.
 
 Agregar y quitar un producto a un carrito de compras.
 
-### [Carro](ejemplo-diagrama-secuencia-bodega.puml)
+### [Bodega](ejemplo-diagrama-secuencia-bodega.puml)
 
 Un ejemplo de como se va actualizando la información de los productos, en base a lo contenido en una bodega.
