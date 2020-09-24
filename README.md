@@ -9,7 +9,7 @@ Los ejemplos contenidos, sirven de base para que realicen sus propios diagramas.
 
 Su desarrollo fue realizado para su uso en la asignatura INF236, del [Departamento de Informáctica](https://www.inf.utfsm.cl/) de la [Universidad Técnica Federico Santa María](https://www.usm.cl/), segundo semestre del 2020.
 
-El video de la clase [aquí]().
+El video de la clase [aquí](https://youtu.be/5EzwZGzDufM).
 
 Comentarios y observaciones a [wladimir.ormzabal@usm.cl](mailto:wladimir.ormazabal@usm.cl)
 
